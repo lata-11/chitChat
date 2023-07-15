@@ -1,8 +1,8 @@
 import Auth from './components/authentication/auth';
 import './App.css';
 import {createBrowserRouter, RouterProvider} from 'react-router-dom';
-import ChatScreen from './components/pages/chatScreen';
-import Home from './components/pages/home';
+import ChatScreen from './pages/chatScreen';
+import Home from './pages/home';
 
 const router= createBrowserRouter([
     {
