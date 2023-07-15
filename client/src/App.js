@@ -1,17 +1,21 @@
-import Auth from './components/authentication/auth';
+
 import './App.css';
 import {createBrowserRouter, RouterProvider} from 'react-router-dom';
 import ChatScreen from './components/pages/chatScreen';
 import Home from './components/pages/home';
-
+import Login from './components/authentication/Login';
+import Signup from './components/authentication/Signup';
+import Error from './components/pages/Error';
 const router= createBrowserRouter([
     {
         path:'/',
         element: <Home/>,
+        errorElement: <Error></Error>,
         children: [
             {path: '/', element: <Home/>},
             {path: '/chat', element: <ChatScreen/>},
-            {path: '/signup', element: <Auth/>},
+            {path: '/login', element: <Login/>},
+            {path: '/signup', element: <Signup/>}
         ],
     }
 ])
