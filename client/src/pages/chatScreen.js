@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from "../components/UI/nav/navbar";
+import Navbar from "../UI/nav/navbar";
 import ShowFriend from "../components/chatWindow/showFriend";
 import ShowChat from "../components/chatWindow/showChat";
 import '../components/chatWindow/Chat_window.css';
