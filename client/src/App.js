@@ -3,11 +3,11 @@ import {createBrowserRouter, RouterProvider} from 'react-router-dom';
 import ChatScreen from './pages/chatScreen';
 import Home from './pages/home';
 
-import ChatScreen from './components/pages/chatScreen';
-import Home from './components/pages/home';
+// import ChatScreen from './components/pages/chatScreen';
+// import Home from './components/pages/home';
 import Login from './components/authentication/Login';
 import Signup from './components/authentication/Signup';
-import Error from './components/pages/Error';
+import Error from "./pages/Error"
 const router= createBrowserRouter([
     {
         path:'/',

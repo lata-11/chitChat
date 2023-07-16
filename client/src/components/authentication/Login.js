@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import classes from "./Login.module.css";
-import Card from "../UI/Card";
+import Card from "../../UI/Card";
 
 const Login = (props) => {
   const [istouched, setIsTouched] = useState(false);

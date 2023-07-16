@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Card from "../UI/Card";
+import Card from "../../UI/Card"
 import classes from "./Signup.module.css";
 import React, {useState} from "react";
 const Signup = (props) => {
