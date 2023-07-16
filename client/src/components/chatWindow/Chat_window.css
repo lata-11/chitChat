@@ -1,0 +1,30 @@
+.chat-window {
+  display: grid;
+  grid-template-columns: 30% 45% auto;
+}
+
+.message-window {
+  background-color: #e6e3f2;
+
+  height: 100vh;
+}
+.friend {
+  background-color: rgba(0, 0, 0, 0.833);
+
+  padding: 2%;
+  height: 100vh;
+}
+.friend ul > li {
+  color: #fff;
+}
+.add-friend {
+  /* background-color: #363435; */
+}
+
+.friend:fullscreen {
+  width: 100vw;
+}
+
+.friend-list {
+  margin-top: 12%;
+}

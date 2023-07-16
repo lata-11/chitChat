@@ -1,5 +1,8 @@
 import './App.css';
 import {createBrowserRouter, RouterProvider} from 'react-router-dom';
+import ChatScreen from './pages/chatScreen';
+import Home from './pages/home';
+
 import ChatScreen from './components/pages/chatScreen';
 import Home from './components/pages/home';
 import Login from './components/authentication/Login';
